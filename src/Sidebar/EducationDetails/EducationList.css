@@ -1,0 +1,29 @@
+.EducationList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+
+  & > .school-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    & > .school-name {
+      font-weight: 700;
+    }
+
+    & > #faMinus {
+      all: unset;
+    }
+  }
+
+  & > hr {
+    width: 100%;
+  }
+
+  & > .faPlus {
+    all: unset;
+  }
+}

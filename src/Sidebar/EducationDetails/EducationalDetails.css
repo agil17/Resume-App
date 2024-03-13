@@ -1,0 +1,19 @@
+.EducationalDetails {
+    padding: 16px;
+    background-color: lightgray;
+    border-radius: 16px;
+    margin-bottom: 16px;
+
+    & > .header {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 16px;
+
+      & > #faCap {
+        width: 34px;
+        height: 34px;
+      }
+    }
+  }
+  

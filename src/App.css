@@ -1,0 +1,32 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.forms-container {
+  width: 30%;
+}
+
+.resume-container {
+  width: 60%;
+  padding: 48px;
+  background-color: lightgray;
+  border-radius: 8px;
+}
+
+/* div {
+  height: 100px;
+  background-color: red;
+}
+
+.medical {
+  height: 100%;
+  width: fit-content;
+} */

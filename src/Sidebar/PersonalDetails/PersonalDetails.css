@@ -1,0 +1,16 @@
+.PersonalDetails {
+  padding: 16px;
+  background: lightgray;
+  border-radius: 16px;
+  margin-bottom: 16px;
+
+  & > .input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+
+    & > label > .label-text {
+      font-weight: 700;
+    }
+  }
+}
